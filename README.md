@@ -15,6 +15,8 @@
    - Step 1: Data staging
    - Step 2: Model training and deployment
    - Step 3: Lambdas and step function workflow
+      - You're going to write and deploy three Lambda functions, and then use the Step Functions visual editor to chain them together!
+      - The first lambda function is responsible for data generation. The second one is responsible for image classification. And the third function is responsible for filtering out low-confidence inferences.
    - Step 4: Testing and evaluation
    - Step 5: Optional challenge
    - Step 6: Cleanup cloud resources
